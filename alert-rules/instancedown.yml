@@ -6,7 +6,7 @@ groups:
   - alert: InstanceDownAlert
     expr: up < 1
     for: 1m
-    keep_firing_for: 15m
+    keep_firing_for: 5m
     labels:
       severity: critical
     annotations:
